@@ -1,11 +1,12 @@
-function addAndReplace(){
+function addOneAndReplace(){
     let carry;
     for(let i=arr.length-1;i>=0;i--){
-        if(arr[i]!==9 && arr[i]===arr.length-1){
-            arr[i]++
-            carry=0
-            break;
-        }else if(arr[i]!==9){
+        // if(arr[i]!==9 && arr[i]===arr.length-1){
+        //     arr[i]++
+        //     carry=0
+        //     break;
+        // }
+      if(arr[i]!==9){
             arr[i]++
             carry=0
             break;
@@ -21,4 +22,4 @@ function addAndReplace(){
     return arr
     }
     let arr=[9,9,9]
-    console.log(addAndReplace(arr))
+    console.log(addOneAndReplace(arr))
