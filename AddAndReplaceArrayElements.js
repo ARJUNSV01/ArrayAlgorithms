@@ -1,3 +1,5 @@
+//this fn adds one to the last element in the array and modifies the array accordingly
+
 function addOneAndReplace(){
     let carry;
     for(let i=arr.length-1;i>=0;i--){
